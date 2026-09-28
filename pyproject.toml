@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-evaluation-lab"
+version = "1.0.0"
+description = "A comprehensive RAG evaluation lab scoring decoupled retrieval (Precision@K, Recall@K, MRR, NDCG) and generation (Faithfulness, Context Precision, Citation Correctness) across pipeline configurations."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "RAG Evaluation Specialist & AI Engineer", email = "rageval@example.com" }
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "pandas>=1.5.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.12.0",
+    "scipy>=1.9.0",
+    "scikit-learn>=1.0.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.scripts]
+rag-eval = "rag_eval.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rag_eval*"]

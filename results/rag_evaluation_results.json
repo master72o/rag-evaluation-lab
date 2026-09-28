@@ -1,0 +1,236 @@
+{
+  "RAG_v1_Baseline": [
+    {
+      "item_id": "rag_001",
+      "config_name": "RAG_v1_Baseline",
+      "overall_score": 0.7547,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.3333,
+        "recall_at_k": 0.5,
+        "mrr": 0.5,
+        "ndcg": 0.3869
+      },
+      "generation": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.75,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_002",
+      "config_name": "RAG_v1_Baseline",
+      "overall_score": 0.7547,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.3333,
+        "recall_at_k": 0.5,
+        "mrr": 0.5,
+        "ndcg": 0.3869
+      },
+      "generation": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.7222,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_003",
+      "config_name": "RAG_v1_Baseline",
+      "overall_score": 0.8374,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.3333,
+        "recall_at_k": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309
+      },
+      "generation": {
+        "faithfulness": 0.95,
+        "answer_relevance": 0.7,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_004",
+      "config_name": "RAG_v1_Baseline",
+      "overall_score": 0.8374,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.3333,
+        "recall_at_k": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309
+      },
+      "generation": {
+        "faithfulness": 0.95,
+        "answer_relevance": 0.9286,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    }
+  ],
+  "RAG_v2_Hybrid": [
+    {
+      "item_id": "rag_001",
+      "config_name": "RAG_v2_Hybrid",
+      "overall_score": 1.0,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.6667,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "generation": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_002",
+      "config_name": "RAG_v2_Hybrid",
+      "overall_score": 1.0,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.6667,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "generation": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.8333,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_003",
+      "config_name": "RAG_v2_Hybrid",
+      "overall_score": 1.0,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.3333,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "generation": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_004",
+      "config_name": "RAG_v2_Hybrid",
+      "overall_score": 1.0,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.3333,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "generation": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    }
+  ],
+  "RAG_v3_Reranked": [
+    {
+      "item_id": "rag_001",
+      "config_name": "RAG_v3_Reranked",
+      "overall_score": 1.0,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.6667,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "generation": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_002",
+      "config_name": "RAG_v3_Reranked",
+      "overall_score": 1.0,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.6667,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "generation": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.9444,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_003",
+      "config_name": "RAG_v3_Reranked",
+      "overall_score": 0.91,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.3333,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.7,
+        "answer_relevance": 1.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    },
+    {
+      "item_id": "rag_004",
+      "config_name": "RAG_v3_Reranked",
+      "overall_score": 0.8886,
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.3333,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.6286,
+        "answer_relevance": 0.9286,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "citation_correctness": 1.0
+      }
+    }
+  ]
+}
